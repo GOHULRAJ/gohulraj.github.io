@@ -1,0 +1,35 @@
+# Site Settings
+title: "Gohul.io"
+description: "SQL Server & DevOps insights, tutorials, and best practices"
+author: "Your Name"
+email: "gohulrajs71@gmail.com"
+baseurl: "" # Leave empty for username.github.io
+url: "https://gohulraj.github.io/" # Your site URL
+
+# Build Settings
+theme: jekyll-theme-minimal # or your chosen theme
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Social Links
+twitter_username: yourtwitter
+github_username: yourgithub
+linkedin_username: yourlinkedin
+
+# Navigation
+header_pages:
+  - about.md
+  - blog.md
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Your Name"
+      comments: true
+      share: true
